@@ -1,6 +1,6 @@
-import javax.swing.JPanel;
-import java.awt.*;
-import java.awt.geom.*;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
 
 public class Cat {
 	// drawing constants are private - noone needs to know what we're doing
@@ -29,7 +29,7 @@ public class Cat {
 		g2.setColor(Color.blue);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
-		g2.setColor(Color.yellow);
+		g2.setColor(Color.red);
 		x = catX + EYE_X;
 		y = catY + EYE_Y;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
