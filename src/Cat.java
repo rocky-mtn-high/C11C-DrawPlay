@@ -13,6 +13,10 @@ public class Cat {
 	// pick eye dimensions
 	private static final int EYE_HEIGHT = 40;
 	private static final int EYE_WIDTH = 20;
+	// whiskers are about 1/4 the size of the head
+	private static final int WHISKER_LENGTH = HEAD_DIMENSION/4;
+	private static final int WHISKER_SLANT = 5;
+	private static final int NUM_WHISKERS = 3;
 	// pick mouth height, width is based on head dimension
 	private static final int MOUTH_HEIGHT = 10;
 	private static final int MOUTH_WIDTH = HEAD_DIMENSION / 4;
